@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="img/Icons8-Windows-8-User-Interface-Login.ico" type="image/icon type">
+    <link rel="stylesheet" href="login.css">
+</head>
+<style>
+    body{
+        background-image: url('img/signinpagebackground.webp');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+</style>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="signin">
+                <form name="myfirstform" action="index.html">
+                    <h1 style="font-family:'Montserrat'; margin-top: 1cm;">Sign in</h1>
+                    <div class="social-container">
+                        <a href="http://www.google.com"><img src="img/google.webp" width="35px" height="35px"></a>
+                        <a href="http://www.facebook.com"><img src="img/facebook.png" width="35px" height="35px"></a>
+                        <a href="http://www.linkedin.com"><img src="img/linkedin.webp" width="35px" height="35px"></a>
+                    </div>
+                    <p style="font-family:'Montserrat'">or use your e-mail to sign in</p>
+                    <input style="font-family:'Montserrat'" class="email" type="email" id="exampleInputEmail1" placeholder="E-mail"><br/>
+                    <input style="font-family:'Montserrat'" class="password" type="password" id="exampleInputPassword1" placeholder="Password"><br/><br/><br/>
+                    <a href="javascript: reset()" style="text-decoration:none; font-family: 'Montserrat'; color:#000;">Forgot your password?</a><br/><br/>
+                    <button class="signinbtn">SIGN IN</button>
+                </form>
+            </div>
+            <div class="signup">
+                <form action="signuppage.html">
+                    <h1 style="color:#FFF; font-family:'Montserrat'; margin-top: 3.5cm;">Hello, Friend!</h1>
+                    <p style="color:#FFF; font-family:'Montserrat'; "> Enter your personal details and start<br/>journey with us!</p><br/>
+                    <button class="signupbtn"> SIGN UP </button>
+                </form>
+            </div>
+        </div>
+    </center>
+    
+<script text="text/javascript" language="javascript">
+    "use strict";
+    var fEnter = document.forms["myfirstform"];
+    var email = fEnter.elements["exampleInputEmail1"];
+    var password = fEnter.elements["exampleInputPassword1"];
+
+    fEnter.onsubmit = function(){
+        if(password.value.length < 6){
+            alert("Password must be at least 6 characters long");
+            password.focus();
+            return false;
+        }
+        if(email.value == ""){
+            alert("E-mail address is required");
+            email.focus();
+            return false;
+        }
+        if(password.value == ""){
+            alert("Password cannot be empty.");
+            password.focus();
+            return false;
+        }
+        else{
+            alert("Success!");
+        }
+        return true;
+    }
+</script>
+<script text="text/javascript" language="javascript">
+    function reset(){
+        prompt("Enter your e-mail and we will send you a reset link")
+    }
+</script>
+</body>
+</html>

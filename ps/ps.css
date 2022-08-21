@@ -1,0 +1,236 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.first{
+    width: 1888px;
+    height: 1075px;
+}
+.second{
+    width: 800px;
+    height: 800px;
+}
+.third{
+    width: 1888px;
+    height: 850px;
+    background-color: #FFF;
+}
+.fourth{
+    width: 1888px;
+    height: 800px;
+}
+.fifth{
+    width: 1888px;
+    height: 800px;
+    background-color: #FFF;
+}
+.sixth{
+    width: 1888px;
+    height: 600px;
+    background-color: #1F4690;
+}
+.hardtoplay{
+    color:#FFF;
+    position: relative; 
+    bottom:900px;
+    left: 75px; 
+    font-size: 100px;
+    font-family: customfont;
+    font-weight: bold;
+    text-shadow: 3px 3px #000;
+}
+.dualsensee{
+    color:#FFF;
+    position: relative;
+    bottom: 990px;
+    left: 75px;
+    font-size: 25px;
+    font-family: customfont;
+    text-shadow: 2px 2px #000;
+}
+.big{
+    color:#FFF;
+    position: relative;
+    bottom: 850px;
+    left: 975px;
+    font-size: 40px;
+    font-family: customfont;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+}
+.text{
+    color: #FFF;
+    position: relative;
+    bottom: 870px;
+    left: 975px;
+    font-size: 20px;
+    font-family: customfont;
+}
+.ps5{
+    color: #1B2430;
+    position: relative;
+    bottom: 350px;
+    left: 75px;
+    font-size: 80px;
+    font-family: customfont2;
+    font-weight: bold;
+    text-shadow: 3px 3px #FFF;
+    opacity: 0.9;
+}
+.leftext{
+    width: 350px;
+    height: 400px;
+    background-color: #1F4690;
+    position: relative;
+    top: 75px;
+    left: 200px;
+    border-radius: 25px;
+}
+.rightext{
+    width: 350px;
+    height: 400px;
+    background-color: #607EAA;
+    position: relative;
+    left: 400px;
+    top: 380px;
+    border-radius: 25px;
+}
+.dualsense{
+    color: #FFF;
+    position: relative;
+    font-family: customfont;
+    font-size: 25px;
+    top: 20px;
+    text-align: center;
+}
+.adjust{
+    font-family: customfont; 
+    color: #000; 
+    font-size: 25px; 
+    text-align: center;
+    position: relative;
+    left: 235px;
+}
+.textwo{
+    font-family: customfont2;
+    color: #1F4690;
+    font-size: 100px;
+    position: relative;
+    bottom: 750px;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    background-color: #1F4690;
+    color: #FFF;
+    font-family: customfont;
+    position: relative;
+    left: 48px;
+    top: 175px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: #607EAA;
+    transition: 0.5s;
+}
+span{
+    background-color: #607EAA;
+}
+.leftext2{
+    width: 700px;
+    height: 570px;
+    background-color: #1F4690;
+    opacity: 0.9;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    border-radius: 25px;
+}
+.header{
+    font-family: customfont;
+    font-size: 40px;
+    color: #FFF;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: customfont;
+    font-weight: bold;
+    position: relative;
+    left: 35px;
+    bottom: 30px;
+    cursor: pointer;
+    border: 3px solid #FFF;
+    border-radius: 15px;
+}
+.btn2:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.folks{
+    font-family: customfont;
+    font-size: 40px;
+    color: #000;
+    position: relative;
+    left: 300px;
+    top: 170px;
+}
+.region{
+    width: 300px;
+    height: 20px;
+    background-color: transparent;
+    color:#FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 113px;
+    left: 25px;
+    cursor: pointer;
+    border: none;
+}
+.copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    position: relative;
+    left: 140px;
+    top: 300px;
+}
+.rightbuttons1{
+    position: relative;
+    bottom: 120px;
+    left: 1000px;
+}
+.rightbuttons2{
+    position: relative;
+    bottom: 410px;
+    left: 1300px;
+}
+.rightbuttons3{
+    position: relative;
+    bottom: 660px;
+    left: 1600px;
+}
+.footerbuttons{
+    width: 250px;
+    height: 20px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+}

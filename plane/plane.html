@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlaneTicket</title>
+    <link rel="icon" href="img/planeicon.jpg" type="image/icon type" />
+    <link rel="stylesheet" href="plane.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="plane" style="background-color: bisque">
+      <div style="margin-left: 10px">
+        <div style="margin-top: 10px" class="firstrow">
+          <button id="seat" class="seat special">1A</button>
+          <button id="seat" class="seat">1B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">1C</button>
+          <button id="seat" class="seat">1D</button>
+          <button id="seat" class="seat">1E</button>
+          <button id="seat" class="seat special">1F</button>
+        </div>
+        <div style="margin-top: 10px" class="secondrow">
+          <button id="seat" class="seat special">2A</button>
+          <button id="seat" class="seat">2B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">2C</button>
+          <button id="seat" class="seat">2D</button>
+          <button id="seat" class="seat">2E</button>
+          <button id="seat" class="seat special">2F</button>
+        </div>
+        <div style="margin-top: 10px" class="thirdrow">
+          <button id="seat" class="seat special">3A</button>
+          <button id="seat" class="seat">3B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">3C</button>
+          <button id="seat" class="seat">3D</button>
+          <button id="seat" class="seat">3E</button>
+          <button id="seat" class="seat special">3F</button>
+        </div>
+        <div style="margin-top: 10px" class="fourthrow">
+          <button id="seat" class="seat special">4A</button>
+          <button id="seat" class="seat">4B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">4C</button>
+          <button id="seat" class="seat">4D</button>
+          <button id="seat" class="seat">4E</button>
+          <button id="seat" class="seat special">4F</button>
+        </div>
+        <div style="margin-top: 10px" class="fifthrow">
+          <button id="seat" class="seat special">5A</button>
+          <button id="seat" class="seat">5B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">5C</button>
+          <button id="seat" class="seat">5D</button>
+          <button id="seat" class="seat">5E</button>
+          <button id="seat" class="seat special">5F</button>
+        </div>
+        <div style="margin-top: 10px" class="sixthrow">
+          <button id="seat" class="seat special">6A</button>
+          <button id="seat" class="seat">6B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">6C</button>
+          <button id="seat" class="seat">6D</button>
+          <button id="seat" class="seat">6E</button>
+          <button id="seat" class="seat special">6F</button>
+        </div>
+        <div style="margin-top: 10px" class="seventhrow">
+          <button id="seat" class="seat special">7A</button>
+          <button id="seat" class="seat reserved">7B</button>
+          <button id="seat" class="seat reserved" style="margin-right: 120px">
+            7C
+          </button>
+          <button id="seat" class="seat">7D</button>
+          <button id="seat" class="seat">7E</button>
+          <button id="seat" class="seat special">7F</button>
+        </div>
+        <div style="margin-top: 70px" class="eighthrow">
+          <button id="seat" class="seat special">8A</button>
+          <button id="seat" class="seat">8B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">8C</button>
+          <button id="seat" class="seat">8D</button>
+          <button id="seat" class="seat">8E</button>
+          <button id="seat" class="seat special">8F</button>
+        </div>
+        <div style="margin-top: 10px" class="ninethrow">
+          <button id="seat" class="seat special">9A</button>
+          <button id="seat" class="seat">9B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">9C</button>
+          <button id="seat" class="seat">9D</button>
+          <button id="seat" class="seat">9E</button>
+          <button id="seat" class="seat special">9F</button>
+        </div>
+        <div style="margin-top: 10px" class="tenthrow">
+          <button id="seat" class="seat special">10A</button>
+          <button id="seat" class="seat">10B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">
+            10C
+          </button>
+          <button id="seat" class="seat">10D</button>
+          <button id="seat" class="seat">10E</button>
+          <button id="seat" class="seat special">10F</button>
+        </div>
+        <div style="margin-top: 10px" class="eleventhrow">
+          <button id="seat" class="seat special">11A</button>
+          <button id="seat" class="seat">11B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">
+            11C
+          </button>
+          <button id="seat" class="seat">11D</button>
+          <button id="seat" class="seat">11E</button>
+          <button id="seat" class="seat special">11F</button>
+        </div>
+        <div style="margin-top: 10px" class="twelfthrow">
+          <button id="seat" class="seat special">12A</button>
+          <button id="seat" class="seat">12B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">
+            12C
+          </button>
+          <button id="seat" class="seat">12D</button>
+          <button id="seat" class="seat">12E</button>
+          <button id="seat" class="seat special">12F</button>
+        </div>
+        <div style="margin-top: 10px" class="thirteenthrow">
+          <button id="seat" class="seat special">13A</button>
+          <button id="seat" class="seat">13B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">
+            13C
+          </button>
+          <button id="seat" class="seat">13D</button>
+          <button id="seat" class="seat">13E</button>
+          <button id="seat" class="seat special">13F</button>
+        </div>
+        <div style="margin-top: 10px" class="fourteenthrow">
+          <button id="seat" class="seat special">14A</button>
+          <button id="seat" class="seat">14B</button>
+          <button id="seat" class="seat" style="margin-right: 120px">
+            14C
+          </button>
+          <button id="seat" class="seat">14D</button>
+          <button id="seat" class="seat">14E</button>
+          <button id="seat" class="seat special">14F</button>
+        </div>
+
+        <ul class="info">
+          <li>
+            <div class="picked"></div>
+            <small> Selected </small>
+          </li>
+          <li>
+            <div class="notpicked"></div>
+            <small> Available </small>
+          </li>
+          <li>
+            <div class="alreadypicked"></div>
+            <small> Reserved </small>
+          </li>
+        </ul>
+
+        <p
+          class="text"
+          style="text-align: center; font-family: Arial, Helvetica, sans-serif"
+        >
+          Price for <span id="count"></span> seats are $<span
+            id="amount"
+          ></span>
+        </p>
+
+        <div class="city-list" style="text-align: center">
+          <select name="" id="city">
+            <option disabled>Choose city</option>
+            <option value="0">İzmir</option>
+            <option value="1">İstanbul</option>
+            <option value="2">Ankara</option>
+          </select>
+        </div>
+        <!-- <div class="city-list" style="text-align: center">
+          <select name="" id="city">
+            <option disabled>Choose city</option>
+            <option value="20">İzmir</option>
+            <option value="25">İstanbul</option>
+            <option value="30">Ankara</option>
+          </select>
+        </div> -->
+      </div>
+    </div>
+    <script src="plane.js"></script>
+  </body>
+</html>

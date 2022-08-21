@@ -1,0 +1,121 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    position: fixed;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.topnav {
+    background-color: #937DC2;
+    overflow: hidden;
+}
+  .topnav a {
+    float: left;
+    color: #FFF;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: customfont;
+    font-weight: bold;
+}
+  .topnav a:hover {
+    background-color: #DDD;
+    color: black;
+}
+  .topnav a.active {
+    background-color: #C689C6;
+    color: white;
+}
+.left{
+    width: 600px;
+    height: 400px;
+    background-color: #DBDFFD;
+    border-radius: 30px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+.star{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.star:hover{
+    box-shadow: 5px 5px 5px #FFE6AB;
+}
+.work{
+    text-align: center;
+    font-family: customfont;
+    font-size: 25px;
+    position: relative;
+    right: 5px;
+    bottom: 50px;
+}
+span:hover{
+    color: #7A0BC0;
+}
+.tablehead{
+    width: 700px;
+    height: 50px;
+    background-color: #EA99D5;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    left: 1000px;
+    bottom: 300px;
+}
+.table{
+    width: 700px;
+    height: 350px;
+    background-color: #FFCDDD;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+    left: 1000px;
+    bottom: 300px;
+}
+.projectbutton{
+    width: 200px;
+    height: 50px;
+    font-family: customfont;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8946A6;
+    position: relative;
+    left: 75px;
+    top: 10px;
+}
+.clickbutton{
+    width: 150px;
+    height: 50px;
+    font-family: customfont;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8946A6;
+    cursor: pointer;
+    position: relative;
+    left: 435px;
+    bottom: 312.5px;
+}
+.clickbutton:hover{
+    background-color: #F4BEEE;
+    border: 2px solid #8946A6;
+}
+.footer{
+    width: 100%;
+    height: 140px;
+    background-color: #B4AEE8;
+    position: relative;
+    bottom: 95px;
+}

@@ -1,0 +1,85 @@
+.container{
+    width: 1900px;
+    height: 806px;
+    position: relative;
+    display: grid;
+}
+.container2{
+    width: 1900px;
+    height: 650px;
+    background-color: #EAE3D2;
+    display: flex;
+    justify-content: space-between;
+}
+.container3{
+    width: 1900px;
+    height: 650px;
+    background-color: #FFF;
+    display: flex;
+}
+.mountain{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 0.5cm;
+    margin-left: 6cm;
+    font-size: 50px;
+}
+.call{
+    font-family: "Ruberoid";
+    font-size: 30px;
+}
+.column{
+    font-family: "Ruberoid";
+    float: left;
+    width: 33.33%;
+    padding: 12px;
+    text-align: center;
+    margin-top: 1cm;
+}
+.column2{
+    font-family: "Ruberoid";
+    float: left;
+    width: 100%;
+    
+    margin-top: 1cm;
+}
+.column3{
+    font-family: "Ruberoid";
+    float: left;
+    width: 100%;
+    position: relative;
+    right: 3cm;
+    top: 1.5cm;
+    margin-top: 1cm;
+    left: 0.4cm;
+}
+.booknow{
+    display: grid;
+    margin-left: 8cm;
+}
+.bookbtn{
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #000;
+    color:#FFF;
+    font-family: "Ruberoid";
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.85cm;
+}
+.learn{
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #000;
+    color: #FFF;
+    font-family: "Ruberoid";
+    border: none;
+    cursor: pointer;
+}

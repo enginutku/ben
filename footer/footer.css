@@ -1,0 +1,139 @@
+.container {
+    height: 250px;
+    width: 1200px;
+    display: flex;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 75px;
+    margin-top: 17px;
+}
+
+.topleft {
+    background-color: #FB896B;
+    text-align: center;
+    border-radius: 20px 0px 0px 0px;
+    width: 400px;
+    height: 250px;
+}
+
+.topmiddle {
+    background-color: #FB6B6B;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+}
+
+.topright {
+    background-color: #F1A864;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.bottomleft {
+    background-color: #FBD36B;
+    text-align: center;
+    border-radius: 0px 0px 0px 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.bottomright {
+    background-color: #485258;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.custom-btn {
+    width: 264px;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    border: none;
+    font-family: customfont;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #D1512D;
+}
+
+.custom-btn1 {
+    width: 264px;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    border: none;
+    font-family: customfont;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-btn1:hover {
+    background-color: #EB4747;
+}
+
+.custom-btn2 {
+    width: 264px;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    border: none;
+    font-family: customfont;
+    cursor: pointer;
+    
+}
+
+.custom-btn2:hover {
+    background-color: #EC994B;
+    transition: 0.3s;
+}
+
+.custom-btn3 {
+    width: 264px;
+    height: 34px;
+    background-color: transparent;
+    color: #485258;
+    text-align: left;
+    border: none;
+    font-family: customfont;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-btn3:hover {
+    background-color: #FFC23C;
+}
+
+.btn {
+    background-color: #FFF;
+    color: #485258;
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: customfont;
+    justify-content: left;
+    display: flex;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.paragraph {
+    font-family: customfont;
+    text-align: left;
+    color: #FFF;
+    margin-left: 75px;
+}

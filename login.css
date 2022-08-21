@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.container{
+    width: 900px;
+    height: 475px;
+}
+.signin{
+    position: absolute;
+    width: 450px;
+    height: 475px;
+    background-color: #FFF;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+    margin-top: 5cm;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signup{
+    position: absolute;
+    width: 450px;
+    height: 475px;
+    background-color: #E78EA9;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+    margin-top: 5cm;
+    margin-left: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.email{
+    width: 284px;
+    height: 39px;
+    background-color: #F1F1F1;
+    border: none;
+}
+.password{
+    width: 284px;
+    height: 39px;
+    background-color: #F1F1F1;
+    border: none;
+    margin-top: 15px;
+}
+
+.signinbtn{
+    font-family:'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: #874356;
+    color:#FFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signinbtn:hover{
+    transition: 0.5s;
+    background-color: #E78EA9;
+    color:#FFF;
+}
+.signupbtn{
+    font-family:'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: #FFF;
+    border: solid #FFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signupbtn:hover{
+    background-color: #FFF;
+    color: #E78EA9;
+    transition: 0.5s;
+}
